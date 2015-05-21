@@ -532,9 +532,12 @@ ul.img-social-stags li a span{
 	background:url(../images/ic.png) no-repeat 0px 0px;
 }
 ul.img-social-stags li a.twitter span{
-	background-position:0px 0px;
+	background-position: 0px 0px;
 }
 ul.img-social-stags li a.facebook span{
+	background-position: -53px 0px;
+}
+ul.img-social-stags li a.github span{
 	background-position: -53px 0px;
 }
 ul.img-social-stags li a.linkedin span{
