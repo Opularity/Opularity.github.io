@@ -540,7 +540,7 @@ ul.img-social-stags li a.facebook span{
 ul.img-social-stags li a.github span{
 	background-position: -53px 0px;
 }
-ul.img-social-stags li a.linkedin span{
+ul.img-social-stags li a.github span{
 	background-position: -106px 0px;
 }
 .image-matter:hover ul.img-social-stags{
@@ -859,7 +859,7 @@ background:url(../images/top-move.png) no-repeat 0px 0px;
 .footer-class-right  ul li a.been span{
 	background-position:-102px 0px;	
 }
-.footer-class-right  ul li a.linkedin span{
+.footer-class-right  ul li a.github span{
 	background-position:-135px 0px;	
 }
 .footer-top {
