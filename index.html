@@ -1,26 +1,35 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Opularity | Home</title>
-		<link href="Resources/css/bootstrap.css" rel='stylesheet' type='text/css' />
-		
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<head>
+	<title>Opularity | Home</title>
+	<link href="Resources/css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<!------ commn-js files ----->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-		<script src="js/jquery.min.js"> </script>
-		
-		<link href="Resources/css/style.css" rel='stylesheet' type='text/css' />
-		
-		<link href="Resources/css/bootstrap-social.css" rel='stylesheet' type='text/css' />
-		
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-		
-	</head>
+	<script src="js/jquery.min.js"> </script>
+	<!------ commn-js files ----->
+	<!----- theme-style ----->
+	<link href="Resources/css/style.css" rel='stylesheet' type='text/css' />
+	<!----- theme-style ----->
+	<link href="Resources/css/bootstrap-social.css" rel='stylesheet' type='text/css' />
+	<!----- webfonts ----->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+	<!----- webfonts ----->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	</script>
+</head>
 	<body>
+
+	<!---header--->
 		<div class="header">
+		<!---container--->
 			<div class="container">
 			<div class="top-header">
 				<div class="logo">
@@ -30,34 +39,77 @@
 					<a class="toggleMenu" href="#"><img src="Resources/images/nav-icon.png" alt="" /> </a>
 					<ul class="nav" id="nav">
 						<li class="active"><a href="#home">Home</a></li>
-						<li><a href="Introduction.html" class="scroll">Introduction</a></li>
+						<li><a href="#Introduction" class="scroll">Introduction</a></li>
 						<li><a href="#Tutorials" class="scroll">Tutorials</a></li>
 						<li><a href="#Resources" class="scroll">Resources</a></li>
 					</ul>
-					<script type="text/javascript" src="Resources/js/responsive-nav.js"></script>
-					<script type="text/javascript" src="Resources/js/move-top.js"></script>
-					<script type="text/javascript" src="Resources/js/easing.js"></script>
+					<script type="text/javascript" src="js/responsive-nav.js"></script>
+					<script type="text/javascript" src="js/move-top.js"></script>
+					<script type="text/javascript" src="js/easing.js"></script>
+					<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>
+
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 			</div>
+		<!---container--->
 		</div>
-		<div  id="top" class="callbacks_container">
-		  <ul class="rslides" id="slider4">
-			<li>
-			  <img src="Resources/images/banner.jpg" alt="" style="height 800px;">
-				<div class="caption bounceInDown">
-					<div class="slide-text-info">
-						<h1 style="margin:auto; padding-left: 120px;">Opularity</h1>
-						<p style="margin:auto; padding-left: 50px; size: 14px;">Opularity is a service created to integrate its users with the technology of the 21st century.</p>
-					</div>
-				</div>
-			</li>
-		  </ul>
-		</div>
-		<div class="clearfix"> </div>
+	<!---header--->
+
+	<!---banner--->
+	<!----start-slider-script---->
+			<script src="Resources/js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+
+			    });
+			  </script>
+			<!----//End-slider-script---->
+			<!-- Slideshow 4 -->
+			    <div  id="top" class="callbacks_container">
+			      <ul class="rslides" id="slider4">
+			        <li>
+			          <img src="Resources/images/banner.jpg" alt="" style="height 800px;">
+						<div class="caption bounceInDown" data-wow-delay="0.4s">
+							<div class="slide-text-info">
+								<h1 style="margin:auto; padding-left: 120px;">Opularity</h1>
+								<p style="margin:auto; padding-left: 50px; size: 14px;">Opularity is a service created to integrate its users with the technology of the 21st century.</p>
+							</div>
+						</div>
+			        </li>
+			      </ul>
+			    </div>
+			    <div class="clearfix"> </div>
+			<!----- //End-slider---->
+
+	<!---banner--->
+
+	<!---content--->
 		<div class="content">
 			<div class="content-top" id="about">
+		<!---container--->
 				<div class="container">
 					<div class="content-we">
 						<h2>
@@ -74,6 +126,8 @@
 								<li><a class="facebook" href="#"><span> </span></a></li>
 								<li><a class="twitter"href="#"><span> </span></a></li>
 								<li><a class="gmail"href="#"><span> </span></a></li>
+								<li><a class="dribble"href="#"><span> </span></a></li>
+								<li><a class="been"href="#"><span> </span></a></li>
 								<div class="clearfix"> </div>
 							</ul>
 					</div>
@@ -114,8 +168,9 @@
 					</div>
 				</div>
 			</div>
-			
+			<!---content-we-are--->
 			<div class="content-we-are" id="team">
+			<!---container--->
 				<div class="container">
 					<div class="content-we">
 						<h2><span class="we-are"> </span>
@@ -132,7 +187,7 @@
 						<ul class="img-social-stags">
 							<li><a class="twitter" href="https://twitter.com/BenJP51"><span> </span></a><li>
 							<li><a class="facebook" href="https://www.facebook.com/ben.poile"><span> </span></a><li>
-							<li><a class="github" href="https://www.github.com/BenP51"><span> </span></a><li>
+							<li><a class="github" href="#"><span> </span></a><li>
 							<div class="clearfix"> </div>
 						</ul>
 					</div>
@@ -153,10 +208,10 @@
 						</ul>
 					</div>
 				</div>
-
+				<!----->
 				<div class="col-md-3">
 					<div class="image-matter">
-						<a href="#"><img class="img-responsive" src="Resources/images/men-ss.jpg" /></a>
+						<a href="#"><img class="img-responsive" src="Resources/images/women.jpg" /></a>
 						<div class="image-bro">
 						<h4>Louis Van-Berren</h4>
 						<p>Writer</p>
@@ -169,7 +224,7 @@
 						</ul>
 					</div>
 				</div>
-
+				<!---- End ---->
 				<div class="col-md-3">
 					<div class="image-matter">
 						<a href="#"><img class="img-responsive" src="Resources/images/Ethan.jpg" style="height: 200px;"/></a>
@@ -186,10 +241,12 @@
 					</div>
 				</div>
 				<div class="clearfix"> </div>
+				<!---- End ---->
 				</div>
 			</div>
 			</div>
 
+		<!---container--->
 			<div class="content-what" id="services">
 				<div class="container">
 					<div class="content-we">
@@ -245,6 +302,7 @@
 					</div>
 				</div>
 			</div>
+		<!---container--->
 			<div class="content-features" id="features">
 					<div class="container">
 						<div class="content-work">
@@ -271,6 +329,6 @@
 					</div>
 					</div>
 			</div>
-
+		<!--container-->
 	</body>
-</html>
+	</html>
