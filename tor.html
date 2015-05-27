@@ -4,7 +4,7 @@
 		<title>Opularity | TOR</title>		<!--Change the title Depending on your tutorial-->
 		<link href="Resources/css/bootstrap.css" rel='stylesheet' type='text/css' />
 		
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 		<script src="js/jquery.min.js"> </script>
 		
@@ -18,9 +18,56 @@
 		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
+		<link rel="stylesheet" id="font-awesome-css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
+		
+		<link rel="stylesheet" href="Resources/css/scroll.css" type="text/css">
+		
+		<script>
+			 
+			$(function(){
+			 
+				$(document).on( 'scroll', function(){
+			 
+					if ($(window).scrollTop() > 100) {
+						$('.scroll-top-wrapper').addClass('show');
+					} else {
+						$('.scroll-top-wrapper').removeClass('show');
+					}
+				});
+			 
+				$('.scroll-top-wrapper').on('click', scrollToTop);
+			});
+			 
+			function scrollToTop() {
+				verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+				element = $('body');
+				offset = element.offset();
+				offsetTop = offset.top;
+				$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+			}
+		</script>
+
+		<script>
+			$(function(){
+			 
+				$(document).on( 'scroll', function(){
+			 
+					if ($(window).scrollTop() > 100) {
+						$('.scroll-top-wrapper').addClass('show');
+					} else {
+						$('.scroll-top-wrapper').removeClass('show');
+					}
+				});
+			});
+		</script>
 	</head>
 
 	<body style="background-color:#3A454D">
+		<div class="scroll-top-wrapper ">
+			<span class="scroll-top-inner">
+				<i class="fa fa-2x fa-arrow-circle-up"></i>
+			</span>
+		</div>
 		<div class="header">
 			<div class="container">
 				<div class="top-header">
@@ -50,7 +97,7 @@
 						<div class="content-we">
 							<h2 style="color:white;">
 								<span class="we-are" style="color: white;"> </span>
-								Our Passion. <!--Tutorial name-->
+								Tor, or the Onion Router. <!--Tutorial name-->
 							</h2>
 						</div>
 						<div class="row">
@@ -104,19 +151,64 @@
 								<p>	
 									Tor is also much too slow, and for some other reasons, it's highly discouraged to use it for something like Torrent downloading.
 								</p>
-								<br><br>
+								<br>
 								
 								<h3 class="headStuff">A Beginner's Guide to Tor: How to Navigate through the Underground Internet</h3>
 
+								<br>
+								
+								<h4 class="headStuff">
+									How Tor works
+								</h4>
+
 								<p>
+									Tor works by anonymizing the transport of your data. Like an onion, Tor encrypts the data you send through the web in multiple layers. Your data is then “relayed” through other computers. Each relay sheds one layer then finally arrives at the source in full form. The software bounces users around a network of open connections run by volunteers all over the globe. This prevents people from spying on your Internet connection and discovering sites you visit. Tor scrambles information that could pinpoint your exact physical location.
+								</p>
 
+								<h4 class="headStuff">
+									Who uses Tor?
+								</h4>
 
+								<p>
+									First and foremost, the utility isn't exclusively for cyber criminals. Tor is for everyone who is concerned about privacy. For starters, many Tor users fear their browsing history is possibly being logged. Many sites, including Facebook, sell your browsing history to advertisers. It's likely those ads on the sides of your social network and email accounts are the product of third-parties buying and analyzing your browsing history without your approval.
+								</p>
 
-								<p><p><br><br><br><br>
+								<p>
+									It's common for people to turn to Tor for basic security. Often times Activists and Journalists use the utility to report injustices from enemy territory without being discovered or to better protect their sources.
+									The ability to remain undetected by invasive marketing strategies is valuable to just about anyone especially those in a professional environment who routinely share confidential documents and need to prevent third-parties from snooping on their browsing history. Especially considering internet providers have been known to sell your browsing records and even log-in credentials to anyone willing to pay for it.
+								</p>
+
+								<p>
+									At times, anonymity is important for safely utilizing basic internet functions. The utility can be an asset for citizens of countries with stringent censorship laws. In some cases, basic information is placed behind a firewall. Tor allows users can anonymously circumvent firewalls and research, say, HIV treatment or access Facebook.
+								</p>
+
+								<h4 class="headStuff">
+									Getting Started: The Tor Browser Bundle
+								</h4>
+
+								<p>
+									The easiest way to use Tor is the Tor browser bundle. The preconfigured Mozilla Firefox browser is easily downloaded from Tor’s official site. Once downloaded, a message will appear that asks if you’d like to connect or configure your browser. In most cases, you can simply connect. However, you should configure your browser if it’s possible that your connection is censored, filtered, or proxied. It’s also worth noting that Tor may violate internet browsing policies at work or over other public networks.
+								</p>
+
+								<p>
+									If you’re on a network that has firewalls and prohibits access to Tor (this could be the case in countries like Iran and China) you can also download Tor via Gmail. Send an message to “gettor@gettor.torproject.org.” In the body of the email write the word, “help.” From there, you’ll receive step-by-step instructions to download Tor.
+								</p>
+
+								<h4 class="headStuff">
+									Browsing Guidelines: How to maintain privacy on Tor
+								</h4>
+
+								<br><br><br><br>
 							</div>
 						</div>
 					</div>
+					<div class="scroll-top-wrapper ">
+						<span class="scroll-top-inner">
+							<i class="fa fa-2x fa-arrow-circle-up"></i>
+						</span>
+					</div>
+				</div>
 		</div>
-	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	</body>
 </html>
