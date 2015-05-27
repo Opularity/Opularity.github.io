@@ -9,6 +9,14 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	background:#FFF;
 }
+.bulletStuff{
+	color: #E1E6EA;
+}
+.headStuff{
+	background-color: #E1E6EA;
+	padding: 8px;
+}
+
 /*----header---*/
 .header{
 	background:#000;

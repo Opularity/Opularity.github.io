@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Opularity | TOR</title>		<!--Change the title Depending on your tutorial-->
+		<link href="Resources/css/bootstrap.css" rel='stylesheet' type='text/css' />
+		
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+		<script src="js/jquery.min.js"> </script>
+		
+		<link href="Resources/css/style.css" rel='stylesheet' type='text/css' />
+		
+		<link href="Resources/css/bootstrap-social.css" rel='stylesheet' type='text/css' />
+		
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+	</head>
+
+	<body style="background-color:#3A454D">
+		<div class="header">
+			<div class="container">
+				<div class="top-header">
+					<div class="logo">
+						<a href="index.html"><img src="Resources/images/logo.png"/></a>
+					</div>
+					<div class="menu">
+						<a class="toggleMenu" href="#"><img src="Resources/images/nav-icon.png" alt="" /> </a>
+						<ul class="nav" id="nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="Introduction.html" class="scroll">Introduction</a></li>
+							<li><a href="Tutorials.html" class="scroll">Tutorials</a></li>
+							<li class="active"><a href="Tutorials.html" class="scroll">Tutorials</a></li>
+						</ul>
+						<script type="text/javascript" src="js/responsive-nav.js"></script>
+						<script type="text/javascript" src="js/move-top.js"></script>
+						<script type="text/javascript" src="js/easing.js"></script>
+						</script>
+
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>	
+		<div class="content-features" id="features">
+					<div class="container">
+						<div class="content-we">
+							<h2 style="color:white;">
+								<span class="we-are" style="color: white;"> </span>
+								Our Passion. <!--Tutorial name-->
+							</h2>
+						</div>
+						<div class="row">
+							<div class="col-md-7 para-matter"> 				<!--Insert tutorial here-->
+								<h2 class="headStuff">Writer's Note:</h2>
+								<p class="sit">
+									Tor is an acronym for The Onion Router which is a name for an anonymizing service and bundle. Ultimately, Tor is a service that anonymizes all ingoing and outgoing internet traffic, through encryption and bouncing it across hundreds of things called Tor Nodes. Nodes are basically proxy servers dotted across the globe that make it so that there is so much encrypted traffic everywhere, its impossible to break. The only successful way to hack the user data in Tor is to break into the entrance node, which is basically your computer. Tor is generally an organization, extremely popular in the hacking community for the anonymity it provides.
+								</p>
+								<p class="sit">
+									Now, you may be now asking, how the hell do I get this thing?!? Well, Tor has written a Firefox-based browser that not only makes all your internet traffic secret but also allows you access to something called the Deep Web as well as the Surface Web.
+									Uhhh… I have a question. What the hell is the Deep Web and the Surface Web? Well Mr/Mrs User, the Surface web is what you know as the general Internet. That includes sites like Google, Youtube, Facebook, Instagram, etc. However, theres another sort of internet that isn't cataloged by any search engine on the surface web. Here''s a simple image of what its like:
+								</p>
+								<img src="Resources/images/tor.jpg"/>
+								<p class="sit">
+									Basically, the Deep Web is another part of the internet where somewhere between 80% and 96% of the internet as a whole exists. Most of it contains illegal activity such as Drug Deals, Underage Pornography and Hitmen/Assassins. 
+									The Deep web can only be accessed with the Tor browser. If you want a mild taste of what the Deep Web is like, go to 4chan.org/b/
+								</p>
+								<p class="sit">
+									So, lets bring it back to Tor for a Minute. Why does Tor matter to you? Well, lets say you're a student, and you want to get to Facebook at school. Its blocked, for obvious reasons. Just download Tor onto a USB, and start it up. Boom. You can now get to anywhere. Nowhere is blocked because the way that Internet filters work is to block IP addresses of certain sites that they don't want people getting to. But, seen as Tor is bounced around across hundreds of different servers with different IP's, the school servers cannot block each and every IP, there for not being able to block Tor, and nothing using Tor.
+								<p class="sit">	
+									Good Luck.
+								</p>
+
+								<h3 class="headStuff">What is Tor and How Do I use it - Tutorial for Beginners</h3>
+
+								<p>
+									So you want to surf the web anonymously? TOR's one of, if not the best, way to do it, and best of all it's FREE (and easy to setup and use).
+								</p>
+								<p>
+									In this tutorial we'll explain in "Layman's Terms", what Tor is.
+								</p>
+								<p>
+									Tor (used to stand for "The Onion Router", but it's no longer considered an abbreviation, so it's just "Tor"), is an anonymity network, used to surf the web (and more) anonymously. Basically, anyone running the Tor software on their computer runs a proxy, and traffic gets passed (encrypted)from one person running Tor to another person running Tor, multiple times through many users, until it get's to the page that you requested. Hence the term "Onion" used to describe it, since it works in "layers". Each person running Tor on their computer is called a "Node".
+									To the page (and anyone logging requests to that page, such as the website owner for example) they can only see the IP address of the last Node (called the "end node"). Any communication along the way, between you, when you request the website page, and the final destination, is encrypted, and cannot be analyzed. However, the last Node in the chain can log and view traffic through it, if the person running it is unscrupulous, so for that reason it can't be said that Tor is 100% anonymous.
+								</p>
+								<p>
+									There are a few different ways to use Tor, so we'll explain to you the basic ones. First off, you need to decide which program you'll want to use along side of Tor itself:
+								</p>
+								<ul class="bulletStuff">
+									<li>
+										Polipo cache's pages and does a few other more technical things that for the purpose of this tutorial I won't explain, so that you don't feel confused or overwhelmed, (if anyone else wants to go into technical details on what Polipo does, comments are welcome) suffice it to say, you don't really need to know that stuff in order to use Tor. Polipo is for that reason, said to be faster while using Tor, and often it is, but not always, and it's also said to be the less secure option of the two as far as your privacy is concered. It will giv eyou a new IP address when surfing, however it is said to also leak alot of your real information along the way.
+									</li>
+									<br>
+									<li>
+										The other option is using Privoxy instead of Polipo. Privoxy doesn't cache your web pages, but it's much more secure as far as leaking any of your real information. Since it does no caching, it can be painfully (brutally, ripping out hair) slow most of the time.
+									</li>
+								</ul>
+								<p>
+									So it boils down to do you want speed, or security. Polipo for speed, Privoxy for security. Regardless of your choice, Tor is generally still just too slow to use 100% of your time on the internet, so you'll really only want to use it when wanting to remain private for a short time.
+								</p>
+								<p>	
+									Tor is also much too slow, and for some other reasons, it's highly discouraged to use it for something like Torrent downloading.
+								</p>
+								<br><br>
+								
+								<h3 class="headStuff">A Beginner's Guide to Tor: How to Navigate through the Underground Internet</h3>
+
+								<p>
+
+
+
+								<p><p><br><br><br><br>
+							</div>
+						</div>
+					</div>
+		</div>
+	
+	</body>
+</html>
