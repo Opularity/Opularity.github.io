@@ -31,6 +31,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "gettingStarted-Ben.html",
+			"settings":
+			{
+				"buffer_size": 20947,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "minecraft.html",
+			"settings":
+			{
+				"buffer_size": 2950,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -80,6 +96,10 @@
 	},
 	"file_history":
 	[
+		"/C/Users/BenP51/Documents/GitHub/OPULAR~1.IO/Getting started.html",
+		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/minecraft.html",
+		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/gettingStarted.html",
+		"/C/Users/BenP51/Desktop/Test.txt.out",
 		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/tor.html",
 		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/how2soldier.html",
 		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/how2scout.html",
@@ -91,10 +111,8 @@
 		"/C/Users/BenP51/Desktop/Test.txt.gpg",
 		"/C/Users/BenP51/Desktop/OpenPGPKey.asc",
 		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/Base.html",
-		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/minecraft.html",
 		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/Mods on Mac.html",
 		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/Mods on windows.html",
-		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/gettingStarted.html",
 		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/gettingStarted-Ben.html",
 		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/liveusb.html",
 		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/backdoors.html",
@@ -193,8 +211,67 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "gettingStarted-Ben.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								792,
+								792
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5276.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "minecraft.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2950,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2550,
+								2550
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
