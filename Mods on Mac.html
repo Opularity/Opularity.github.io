@@ -1,0 +1,158 @@
+<html>
+	<head>
+		<title>Opularity | Mods on Mac</title>		<!--Change the title Depending on your tutorial-->
+		<link href="Resources/css/bootstrap.css" rel='stylesheet' type='text/css' />
+		
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+		<script src="js/jquery.min.js"> </script>
+		
+		<link href="Resources/css/style.css" rel='stylesheet' type='text/css' />
+		
+		<link href="Resources/css/bootstrap-social.css" rel='stylesheet' type='text/css' />
+		
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+		<link rel="stylesheet" id="font-awesome-css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
+		
+		<link rel="stylesheet" href="Resources/css/scroll.css" type="text/css">
+		
+		<script>
+			 
+			$(function(){
+			 
+				$(document).on( 'scroll', function(){
+			 
+					if ($(window).scrollTop() > 100) {
+						$('.scroll-top-wrapper').addClass('show');
+					} else {
+						$('.scroll-top-wrapper').removeClass('show');
+					}
+				});
+			 
+				$('.scroll-top-wrapper').on('click', scrollToTop);
+			});
+			 
+			function scrollToTop() {
+				verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+				element = $('body');
+				offset = element.offset();
+				offsetTop = offset.top;
+				$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+			}
+		</script>
+
+		<script>
+			$(function(){
+			 
+				$(document).on( 'scroll', function(){
+			 
+					if ($(window).scrollTop() > 100) {
+						$('.scroll-top-wrapper').addClass('show');
+					} else {
+						$('.scroll-top-wrapper').removeClass('show');
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="scroll-top-wrapper ">
+			<span class="scroll-top-inner">
+				<i class="fa fa-2x fa-arrow-circle-up"></i>
+			</span>
+		</div>
+		<div class="header">
+			<div class="container">
+				<div class="top-header">
+					<div class="logo">
+						<a href="index.html"><img src="Resources/images/logo.png"/></a>
+					</div>
+					<div class="menu">
+						<a class="toggleMenu" href="#"><img src="Resources/images/nav-icon.png" alt="" /> </a>
+						<ul class="nav" id="nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="Introduction.html" class="scroll">Introduction</a></li>
+							<li class="active"><a href="Tutorials.html" class="scroll">Tutorials</a></li>
+							<li><a href="Tutorials.html" class="scroll">Resources</a></li>
+						</ul>
+						<script type="text/javascript" src="js/responsive-nav.js"></script>
+						<script type="text/javascript" src="js/move-top.js"></script>
+						<script type="text/javascript" src="js/easing.js"></script>
+						</script>
+
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>	
+		<div class="content-features" id="features">
+					<div class="container">
+						<div class="content-we">
+							<h2 style="color:white;">
+								<span class="we-are" style="color: white;"> </span>
+									Installing Minecraft Mods on Mac
+							</h2>
+						</div>
+						<div class="row">
+							<div class="col-md-7 para-matter"> 				<!--Insert tutorial here-->
+								<p class="sit">Ok, so you've got the game up and running, you've changed your character skin and given your Minecraft world a whole new look, but now it's time to take the next step. Mods are different from the tweaks covered above in that they fundamentally alter how the game functions, instead of just upgrading its looks. Because of this, installing mods is a slightly more involved process.</p>
+								<img src="Resources/images/forge.jpg"/>
+
+								<p class="sit">The first thing you need to do is install Minecraft Forge. Minecraft Forge streamlines the installation of mods by replacing the necessary files for you, rather than requiring you to swap out all the files each time you want to try a new mod. Find the Forge version that corresponds to your Minecraft install the wheel on the <a href="http://files.minecraftforge.net/">Forge website</a> and download it.</li>
+								<ul class="bulletStuff">
+									<li>Double click the downloaded file to bring up the installer. Click "Install client" and then "OK." Forge will install the necessary files and folders.</li>
+
+									<li>Click the version drop-down menu and select the "Forge" version from the list (usually located at the bottom), save your profile, and start the game.</li>
+									
+									<li>You'll notice that the main menu now includes a "Mods" section.</li>
+
+									<li>Now, bring up the Minecraft client and once again click "Edit" on your profile in the bottom left corner.
+										<br>
+										<img src="Resources/images/mods.jpg"/>
+										
+										<p class="sit">Note: The vast majority of mods are Forge-compatible, and many actually require Forge in order to be used. There are still a few that don't workwith Forge, but since your chances of coming across an incompatible mod are rather slim, we're sticking with the Forge method here.</p><br>
+										
+										<p class="sit">Now it's time to find a mod that you want to install. A community-compiled list of mods on MCF Modlist is a great place to start, but you can also browse for mods on the forums or sites like Planet Minecraft. Once you've found a mod you want to use, download the file.</p>
+										
+										<p class="sit">For this tutorial we'll install a mod that gives in-game characters and animals on-screen life bars.</p>
+									</li>
+
+									<li>Once you've downloaded the file, you need to add it to the newly-created Mod folder. The easiest way to do this is to click "Go" on the OS X menu bar and then click "Go to Folder."</li>
+									
+									<img src="Resources/images/library.jpg">
+
+									<li>Type "~/Library/Application Support/minecraft" and then click "Go."</li>
+
+									<li>Open the "Mods" folder, and drag the mod you downloaded into it.</li>
+
+									<li>Now, start the game and click on the "Mods" tab on the main menu.</li>
+
+									<img src="Resources/images/mods2.jpg">
+									
+									<li>You'll see the mod you just installed on the list on the left side of the screen. Click it and make sure it's enabled.</li>
+									
+									<li>Now enter a Minecraft world and enjoy!</li>
+								</ul>
+								<img src="Resources/images/mods3.jpg">
+								<p class="sit">That's it! You now have everything you need to change the look, feel, and gameplay of one of the most popular PC games of all time. So experiment, try anything that sounds even mildly interesting, and keep an eye on new and exciting mods as they debut around the web.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="scroll-top-wrapper ">
+						<span class="scroll-top-inner">
+							<i class="fa fa-2x fa-arrow-circle-up"></i>
+						</span>
+					</div>
+				</div>
+		</div>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	
+	</body>
+</html>

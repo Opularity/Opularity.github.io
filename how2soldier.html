@@ -1,0 +1,267 @@
+<html>
+	<head>
+		<title>Opularity | TF2</title>		<!--Change the title Depending on your tutorial-->
+		<link href="Resources/css/bootstrap.css" rel='stylesheet' type='text/css' />
+		
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+		<script src="js/jquery.min.js"> </script>
+		
+		<link href="Resources/css/style.css" rel='stylesheet' type='text/css' />
+		
+		<link href="Resources/css/bootstrap-social.css" rel='stylesheet' type='text/css' />
+		
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+		<link rel="stylesheet" id="font-awesome-css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
+		
+		<link rel="stylesheet" href="Resources/css/scroll.css" type="text/css">
+		
+		<script>
+			 
+			$(function(){
+			 
+				$(document).on( 'scroll', function(){
+			 
+					if ($(window).scrollTop() > 100) {
+						$('.scroll-top-wrapper').addClass('show');
+					} else {
+						$('.scroll-top-wrapper').removeClass('show');
+					}
+				});
+			 
+				$('.scroll-top-wrapper').on('click', scrollToTop);
+			});
+			 
+			function scrollToTop() {
+				verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+				element = $('body');
+				offset = element.offset();
+				offsetTop = offset.top;
+				$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+			}
+		</script>
+
+		<script>
+			$(function(){
+			 
+				$(document).on( 'scroll', function(){
+			 
+					if ($(window).scrollTop() > 100) {
+						$('.scroll-top-wrapper').addClass('show');
+					} else {
+						$('.scroll-top-wrapper').removeClass('show');
+					}
+				});
+			});
+		</script>
+	</head>
+
+	<body style="background-color:#3A454D">
+		<div class="scroll-top-wrapper ">
+			<span class="scroll-top-inner">
+				<i class="fa fa-2x fa-arrow-circle-up"></i>
+			</span>
+		</div>
+		<div class="header">
+			<div class="container">
+				<div class="top-header">
+					<div class="logo">
+						<a href="index.html"><img src="Resources/images/logo.png"/></a>
+					</div>
+					<div class="menu">
+						<a class="toggleMenu" href="#"><img src="Resources/images/nav-icon.png" alt="" /> </a>
+						<ul class="nav" id="nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="Introduction.html" class="scroll">Introduction</a></li>
+							<li class="active"><a href="Tutorials.html" class="scroll">Tutorials</a></li>
+							<li><a href="Tutorials.html" class="scroll">Resources</a></li>
+						</ul>
+						<script type="text/javascript" src="js/responsive-nav.js"></script>
+						<script type="text/javascript" src="js/move-top.js"></script>
+						<script type="text/javascript" src="js/easing.js"></script>
+						</script>
+
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>	
+		<div class="content-features" id="features">
+					<div class="container">
+						<div class="content-we">
+							<h2 style="color:white;">
+								<span class="we-are" style="color: white;"> </span>
+								How to play as a Sniper in Team Fortress 2 <!--Tutorial name-->
+							</h2>
+						</div>
+		<p class="sit">The American war heads of Team Fortress 2. Despite having no official military experience, Soldiers hold the offense role by charging in with their Rocket Launcher, their Shotgun and a Shovel. They also have the ability to rocket jump to higher ground and join the team. Combining the Rocket Launcher and Shotgun can also allow them to knock players into the sky and shoot them down.</p>
+			
+		<br />
+		<br />
+		<br />
+		
+		<h3 class="headStuff">Prepare for battle.</h3>
+		<p class="sit">Soldiers jump into the war with a Rocket Launcher (Primary), A medium ranged Shotgun (Secondary), and a Shovel (Melee). All have their uses in their own situations.</p>
+		
+		<table border="1" align="center" class="bulletStuff">
+			<tr>
+				<th>Primary</th>
+				<th>Ammo Loaded/Ammo Carried</th>
+				<th>Special Abilities</th>
+			</tr>
+			
+			<tr>
+				<td>Rocket Launcher</td>
+				<td>4/20</td>
+				<td>
+					<ul class="bulletStuff">
+						<li>None</li>
+					<ul class="bulletStuff">
+				</td>
+			</tr>
+						
+			<tr>
+				<td>Rocket Jumper</td>
+				<td>4/60</td>
+				<td>
+					<ul class="bulletStuff">
+						<li> Grants the player 200% extra max primary ammo.</li>
+						<li>No self inflicted damage</li>
+						<li>Can't damage enemies</li>
+						<li>Can't carry intel</li>
+						<li>No random crits</li>
+					<ul class="bulletStuff">
+				</td>
+			</tr>
+		</table>
+		
+		<table border="1" align="center" class="bulletStuff">
+			<tr>
+				<th>Secondary</th>
+				<th>Ammo Loaded/Ammo Carried</th>
+				<th>Special Abilities</th>
+			</tr>
+			
+			<tr>
+				<td>Shotgun</td>
+				<td>6/32</td>
+				<td>
+					<ul class="bulletStuff">
+						<li>None</li>
+					<ul class="bulletStuff">
+				</td>
+			</tr>
+						
+			<tr>
+				<td>Gunboats</td>
+				<td>NA</td>
+				<td>
+					<ul class="bulletStuff">
+						<li>60% less self damage from rocket jumps</li>
+						<li>Does not need to be activated</li>
+					<ul class="bulletStuff">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Mantreads</td>
+				<td>NA</td>
+				<td>
+					<ul class="bulletStuff">
+						<li>75% reduction in push force from damage</li>
+						<li>3x falling damage to players landed on</li>
+						<li>Does not need to be activated</li>
+					<ul class="bulletStuff">
+				</td>
+			</tr>
+		</table>
+		
+		<table border="1" align="center" class="bulletStuff">
+			<tr>
+				<th>Melee</th>
+				<th>Special Abilities</th>
+			</tr>
+			
+			<tr>
+				<td>Shovel</td>
+				<td>
+					<ul class="bulletStuff">
+						<li>None</li>
+					<ul class="bulletStuff">
+				</td>
+			</tr>
+						
+			<tr>
+				<td>Market Gardener</td>
+				<td>
+					<ul class="bulletStuff">
+						<li>Crits while rocket jumping</li>
+						<li>No random crits</li>
+					<ul class="bulletStuff">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>The Escape Plan</td>
+				<td>
+					<ul class="bulletStuff">
+						<li><b>WHEN ACTIVE:</b></li>
+						<li>More speed with less health</li>
+						<li>Mini crits taken</li>
+						<li>Blocks healing</li>
+					<ul class="bulletStuff">
+				</td>
+			</tr>
+		</table>
+		
+		<br />
+		<br />
+		<br />
+		
+		<h3 class="headStuff">Use your Rocket Launcher for all kinds of situations.</h3>
+		<p class="sit">The Rocket Launcher is a very powerful primary weapon. It can be used in all ranges.</p>
+		<ul class="bulletStuff">
+			<li>At close range, shoot it at an incoming enemy for instant death.</li>
+			<li>Shoot it at an enemy's feet! An enemy is less likely to dodge a rocket attack if you shoot it at their feet. Keep this in mind, especially at close range.</li>
+			<li>At medium range, shoot it at an enemy for a very strong attack that lowers their health exponentially.</li>
+			<li>At long range, shoot it at an enemy for a shot that can deal much damage to your enemy. Remember that it helps to try to predict an enemy's movement before shooting because it can be easily dodged. Use your rocket against enemy snipers. While, as said before, they can dodge quickly, the rockets deal a surprising amount of splash damage.</li>
+		</ul>
+		
+		<br />
+		<br />
+		<br />
+		
+		<h3 class="headStuff">Use the Shotgun for all situations as well.</h3>
+		<p class="sit">When you are unable to use your Rocket Launcher, you may want to use your shotgun. It provides adequate power that can chip away at enemy health to help deliver a finishing rocket blow or pick off retreating enemies with low health. Using the shotgun for longer range can guarantee damage is being dealt, whereas the rocket launcher may be too slow to reach any foes in your sight. Enemies on elevated ground are also valid shotgun targets, because your rockets can't be aimed at the ground in front of them to deal damage. Also, use this against Scouts, because it can be nigh impossible to hit them with your very slow Rocket Launcher.</p>
+		
+		<br />
+		<br />
+		<br />
+		
+		<h3 class="headStuff">Use the Shovel in point-blank range.</h3>
+		<p class="sit">As with all melee weapons, the shovel is very fun to use, but only use it when you are close and have a clear shot. One misstep and you can be dead.</p>
+		
+		<br />
+		<br />
+		<br />
+		
+		<h3 class="headStuff">Learn. To. Rocket Jump.</h3>
+		<p class="sit">Rocket-jumping is a technique used by many Soldiers. Rocket-jumping allows you to jump to huge heights. You can use it to escape, attack, get to a place, or just for fun. To Rocket-jump, you need to jump, then shoot and crouch at the same time. You should be in the air in no time. Remember that this will injure you. It is sometimes a good idea, if you have the time, to get a nearby medic to beef you up to 150% health to lower the health lost.</p>
+		
+		<br />
+		<br />
+		<br />
+		
+		<h3 class="headStuff">Use your brain.</h3>
+		<ul class="bulletStuff">
+			<li>If used effectively a medic soldier combo can be even more deadly than a heavy medic combo. If you like having high DPS have your medic try the kritzkrieg, if you are a heavily mobile soldier have your pocket medic use the quick fix. Shoot rockets at any oncoming enemies while the Medic heals you, and you have a huge rocket shield. Be sure to protect your medic!!!</li>
+			<li>You can die from your own rockets. Watch your heatlh!</li>
+		</ul>
+		
+	</body>
+</html>

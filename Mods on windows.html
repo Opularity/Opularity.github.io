@@ -1,0 +1,171 @@
+<html>
+	<head>
+		<title>Opularity | Mods on Mac</title>		<!--Change the title Depending on your tutorial-->
+		<link href="Resources/css/bootstrap.css" rel='stylesheet' type='text/css' />
+		
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+		<script src="js/jquery.min.js"> </script>
+		
+		<link href="Resources/css/style.css" rel='stylesheet' type='text/css' />
+		
+		<link href="Resources/css/bootstrap-social.css" rel='stylesheet' type='text/css' />
+		
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+		<link rel="stylesheet" id="font-awesome-css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
+		
+		<link rel="stylesheet" href="Resources/css/scroll.css" type="text/css">
+		
+		<script>
+			 
+			$(function(){
+			 
+				$(document).on( 'scroll', function(){
+			 
+					if ($(window).scrollTop() > 100) {
+						$('.scroll-top-wrapper').addClass('show');
+					} else {
+						$('.scroll-top-wrapper').removeClass('show');
+					}
+				});
+			 
+				$('.scroll-top-wrapper').on('click', scrollToTop);
+			});
+			 
+			function scrollToTop() {
+				verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+				element = $('body');
+				offset = element.offset();
+				offsetTop = offset.top;
+				$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+			}
+		</script>
+
+		<script>
+			$(function(){
+			 
+				$(document).on( 'scroll', function(){
+			 
+					if ($(window).scrollTop() > 100) {
+						$('.scroll-top-wrapper').addClass('show');
+					} else {
+						$('.scroll-top-wrapper').removeClass('show');
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="scroll-top-wrapper ">
+			<span class="scroll-top-inner">
+				<i class="fa fa-2x fa-arrow-circle-up"></i>
+			</span>
+		</div>
+		<div class="header">
+			<div class="container">
+				<div class="top-header">
+					<div class="logo">
+						<a href="index.html"><img src="Resources/images/logo.png"/></a>
+					</div>
+					<div class="menu">
+						<a class="toggleMenu" href="#"><img src="Resources/images/nav-icon.png" alt="" /> </a>
+						<ul class="nav" id="nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="Introduction.html" class="scroll">Introduction</a></li>
+							<li class="active"><a href="Tutorials.html" class="scroll">Tutorials</a></li>
+							<li><a href="Tutorials.html" class="scroll">Resources</a></li>
+						</ul>
+						<script type="text/javascript" src="js/responsive-nav.js"></script>
+						<script type="text/javascript" src="js/move-top.js"></script>
+						<script type="text/javascript" src="js/easing.js"></script>
+						</script>
+
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>	
+		<div class="content-features" id="features">
+					<div class="container">
+						<div class="content-we">
+							<h2 style="color:white;">
+								<span class="we-are" style="color: white;"> </span>
+									Installing Minecraft Mods on Windows
+							</h2>
+						</div>
+						<div class="row">
+							<div class="col-md-7 para-matter"> 				<!--Insert tutorial here-->
+								<p>Before you get started, make sure you understand what mods are and you've read the safety tips for downloading them. If you're looking for some good ones to try out, check out this list or this list for some recommendations that you can use to get your feet wet.<br><br>
+								And most importantly of all, make a backup copy of any worlds that you already have that you want to keep. There are times when mods can permanently corrupt worlds, so you want to be able to restore them if that happens. To make a backup copy, look for the /minecraft/saves folder - each world will have its own subfolder in there, so take a copy of that and put it somewhere safe before you start modding.</p><br><br>
+								
+								<h3 class="headStuff">HOW DO YOU INSTALL A MOD?</h3>
+								
+								<p>There's really no standard way to install a Minecraft mod because each is created by a different person using different methods. Each mod should come with its own installation instructions, but most assume that you'll follow something like these series of steps.<br><br>
+								The easiest way to do all this is by using a mod called Minecraft Forge, but sometimes for whatever reason Forge doesn't load properly or the mods you want to run aren't compatible with it. In those cases it really helps if you have an idea about how to install mods without it, so I'll give you those instructions as well.</p>
+								
+								<h3 class="headStuff">STEP 1:  DOWNLOAD FORGE</h3><br>
+								<ul class="bulletStuff"> 
+									<li>Go to the official <a href="http://files.minecraftforge.net/">Forge website</a></li>
+									<li>Figure out which version you need (it needs to match the version of Minecraft that your mods are compatible with)<br><br>
+									<li>Look for that version number under the Promotions column or use the dropdown box called Select Minecraft Version<br><br>
+									<li>If this is your first time installing Forge, pick the one that says Recommended<br><br>
+									<li>Under the Downloads column use the link called Installer to download the installation file.<br>
+
+								</ul>
+
+								<h5 class="headStuff">IMPORTANT:</h5>
+
+								<p>In the Downloads column you'll see the names of the different versions (e.g. Installer, Installer-Win, Universal) followed by a link that's an asterisk.</p>
+								
+								<img src="Resources/images/forge2.png"/>
+								
+								<p>Always pick the link with the asterisk (*) as that's the direct download link that doesn't pass through AdFly first - an ad service that shows you ads before taking you to the download page. These ads sometimes look like legitimate links to trick you into downloading malware, so always use the direct link instead.</p>
+								<p>If you do land on AdFly, wait five seconds for the counter in the top right hand corner to count down and the SKIP AD link to appear. DO NOT CLICK ON ANYTHING ON THE ADFLY PAGE EXCEPT THE SKIP AD LINK, which will take you to the Forge download page.</p><br>
+								<h3 class="headStuff">STEP 2:  INSTALL FORGE</h3>
+								<p>Once the file has downloaded (and you've scanned it with your antivirus protection software), double-click to open it and then select 'Install Client'.<p>
+								<h3 class="headStuff">STEP 3:  LAUNCH MINECRAFT</h3><br>
+								<p/>Once Forge has successfully installed, run Minecraft and look in the profiles drop-down menu - you should see that you now have a new profile called Forge. Log in with that profile and click Play (wait for the green bar to fully load). You should now have a menu option called Mods. Exit Minecraft.</p>
+								<h3 class="headStuff">STEP 4:  DOWNLOAD COMPATIBLE MODS</h3>
+								<p>Mods can be found all over the internet, with some sources being more reliable than others. These are good places to start:</p>
+								<ul class="bulletStuff">
+									<li><a href="http://minemum.com/popular-mods">Ten Popular Minecraft Mods To Get You Started</a></li>
+									<li><a href="http://minemum.com/more-mods">Another List of Cool Minecraft Mods</a></li>
+									<li><a href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods">The mods section of the Minecraft Forums</a></li>
+									<li><a href="http://modlist.mcf.li/">MCF Mod List</a></li>
+								</ul>
+								<li>
+									Make sure you read through the <a href="http://minemum.com/mod-safety">Safety Tips For Downloading Mods</a>
+
+								 	<p>
+								 		article first and, as with any file that you download from the internet, exercise extreme caution before clicking on any download link and always run good virus protection on your device.
+								 	</p>
+								</li>
+								
+								<p class="sit">
+									Forge is in itself a mod, and any mod that you want to install with it needs to be compatible with it. You can find this information in the place where you got the mod (e.g. the forum post with the download link) and in the documentation that you download along with the mod files.
+								</p>
+								<h3 class="headStuff">STEP 5:  INSTALL THE MOD</h3>
+								<p class="sit">Now all you need to do is copy the entire zip file of the mod into the mods folder that Forge has created in the /minecraft folder. That's it!</p>
+								<h3 class="headStuff">STEP 6:  LAUNCH MINECRAFT</h3>
+								<p>Now when you run Minecraft, you'll see the mods that you put in the mods folder listed under the Mods menu option.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="scroll-top-wrapper ">
+						<span class="scroll-top-inner">
+							<i class="fa fa-2x fa-arrow-circle-up"></i>
+						</span>
+					</div>
+				</div>
+		</div>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	
+	</body>
+</html>
