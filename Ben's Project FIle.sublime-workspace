@@ -31,22 +31,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "gettingStarted-Ben.html",
-			"settings":
-			{
-				"buffer_size": 20947,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "minecraft.html",
-			"settings":
-			{
-				"buffer_size": 2950,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -96,8 +80,47 @@
 	},
 	"file_history":
 	[
-		"/C/Users/BenP51/Documents/GitHub/OPULAR~1.IO/Getting started.html",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_layouts/post.html",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/about.md",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_config.yml",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/index.html",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_layouts/default.html",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_includes/head.html",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_includes/header.html",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_layouts/page.html",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_posts/2015-06-03-Being.md",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_sass/base.scss",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_includes/footer.html",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_includes/menu.html",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/img/emerald.svg",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_includes/link.html",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/css/main.scss",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/js/main.js",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/readme.md",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_includes/header-custom.html",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_includes/nav-footer.html",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_includes/nav-footer-custom.html",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_includes/script.html",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/license.md",
+		"/C/Users/BenP51/Desktop/_posts/2015-06-03-firstpost.markdown",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_posts/2015-06-03-hello.md",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_posts/2015-02-10-hello-world.md",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_posts/2015-02-15-example-1.md",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_posts/2015-02-15-example-2.md",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_posts/2015-02-15-example-3.md",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_posts/2015-02-15-example-4.md",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_posts/2015-02-15-example-5.md",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_posts/2015-02-15-example-6.md",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_posts/2015-02-15-example-7.md",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_posts/2015-02-15-example-8.md",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_posts/2015-03-01-code-syntax.md",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_posts/2015-03-19-typography.md",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_posts/2015-06-03-firstpost.markdown",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_posts/2015-06-03-welcome-to-jekyll.markdown",
+		"/C/Users/BenP51/Documents/GitHub/nearlynear.github.io/_site/index.html",
+		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/gettingStarted-Ben.html",
 		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/minecraft.html",
+		"/C/Users/BenP51/Documents/GitHub/OPULAR~1.IO/Getting started.html",
 		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/gettingStarted.html",
 		"/C/Users/BenP51/Desktop/Test.txt.out",
 		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/tor.html",
@@ -113,7 +136,6 @@
 		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/Base.html",
 		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/Mods on Mac.html",
 		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/Mods on windows.html",
-		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/gettingStarted-Ben.html",
 		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/liveusb.html",
 		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/backdoors.html",
 		"/C/Users/BenP51/Documents/GitHub/Opularity.github.io/Resources.html",
@@ -211,67 +233,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "gettingStarted-Ben.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 20947,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								792,
-								792
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5276.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "minecraft.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2950,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2550,
-								2550
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 450.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
